@@ -7,17 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:layout_width="match_parent"
         android:src="@drawable/blood_poster"
         android:layout_above="@+id/l1"
+        android:scaleType="centerCrop"
         android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/logout"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:text="Logout"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_alignParentBottom="true"
         android:id="@+id/l1"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content">
         <Button
