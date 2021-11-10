@@ -1,0 +1,373 @@
+<resources>
+    <string name="app_name">I-Donor</string>
+
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+
+    <string-array name="bg">
+        <item>All</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+    <string-array name="bg2">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+
+    </string-array>
+
+    <string-array name="reason">
+        <item>Accident</item>
+        <item>Surgery</item>
+        <item>Pregnancy</item>
+        <item>Cancer</item>
+        <item>Transplant</item>
+        <item>Thalassemia</item>
+        <item>Low Hemoglobin</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="location">
+        <item>Adoni, Andhra Pradesh</item>
+        <item>Agartala, Tripura</item>
+        <item>Agra, Uttar Pradesh</item>
+        <item>Ahmedabad, Gujarat</item>
+        <item>Ahmednagar, Maharashtra</item>
+        <item>Aizawl, Mizoram</item>
+        <item>Ajmer, Rajasthan</item>
+        <item>Akola, Maharashtra</item>
+        <item>Alappuzha, Kerala</item>
+        <item>Aligarh, Uttar Pradesh</item>
+        <item>Allahabad, Uttar Pradesh</item>
+        <item>Alwar, Rajasthan</item>
+        <item>Amaravati, Andhra Pradesh</item>
+        <item>Ambala, Haryana</item>
+        <item>Ambarnath, Maharashtra</item>
+        <item>Ambattur, Tamil Nadu</item>
+        <item>Amravati, Maharashtra</item>
+        <item>Amritsar, Punjab</item>
+        <item>Amroha, Uttar Pradesh</item>
+        <item>Anand, Gujarat</item>
+        <item>Anantapur, Andhra Pradesh</item>
+        <item>Arrah, Bihar</item>
+        <item>Asansol, West Bengal</item>
+        <item>Aurangabad, Maharashtra</item>
+        <item>Aurangabad, Bihar</item>
+        <item>Avadi, Tamil Nadu</item>
+        <item>Bahraich, Uttar Pradesh</item>
+        <item>Ballia, Uttar Pradesh</item>
+        <item>Bally, West Bengal</item>
+        <item>Bangalore , Karnataka</item>
+        <item>Baranagar, West Bengal</item>
+        <item>Barasat, West Bengal</item>
+        <item>Bardhaman, West Bengal</item>
+        <item>Bareilly, Uttar Pradesh</item>
+        <item>Bathinda, Punjab</item>
+        <item>Begusarai, Bihar</item>
+        <item>Belgaum, Karnataka</item>
+        <item>Bellary, Karnataka</item>
+        <item>Berhampore, West Bengal</item>
+        <item>Berhampur, Odisha</item>
+        <item>Bettiah, Bihar</item>
+        <item>Bhagalpur, Bihar</item>
+        <item>Bhalswa Jahangir Pur, Delhi</item>
+        <item>Bharatpur, Rajasthan</item>
+        <item>Bhatpara, West Bengal</item>
+        <item>Bhavnagar, Gujarat</item>
+        <item>Bhilai, Chhattisgarh</item>
+        <item>Bhilwara, Rajasthan</item>
+        <item>Bhimavaram, Andhra Pradesh</item>
+        <item>Bhind, Madhya Pradesh</item>
+        <item>Bhiwandi, Maharashtra</item>
+        <item>Bhiwani, Haryana</item>
+        <item>Bhopal, Madhya Pradesh</item>
+        <item>Bhubaneswar, Odisha</item>
+        <item>Bhusawal, Maharashtra</item>
+        <item>Bidar, Karnataka</item>
+        <item>Bidhannagar, West Bengal</item>
+        <item>Bihar Sharif, Bihar</item>
+        <item>Bijapur, Karnataka</item>
+        <item>Bikaner, Rajasthan</item>
+        <item>Bilaspur, Chhattisgarh</item>
+        <item>Bokaro, Jharkhand</item>
+        <item>Bongaigaon, Assam</item>
+        <item>Bulandshahr, Uttar Pradesh</item>
+        <item>Burhanpur, Madhya Pradesh</item>
+        <item>Buxar, Bihar</item>
+        <item>Chandigarh, Chandigarh</item>
+        <item>Chandrapur, Maharashtra</item>
+        <item>Chapra, Bihar</item>
+        <item>Chennai, Tamil Nadu</item>
+        <item>Chinsurah, West Bengal</item>
+        <item>Chittoor, Andhra Pradesh</item>
+        <item>Coimbatore, Tamil Nadu</item>
+        <item>Cuttack, Odisha</item>
+        <item>Danapur, Bihar</item>
+        <item>Darbhanga, Bihar</item>
+        <item>Davanagere, Karnataka</item>
+        <item>Dehradun, Uttarakhand</item>
+        <item>Dehri, Bihar</item>
+        <item>Delhi, Delhi</item>
+        <item>Deoghar, Jharkhand</item>
+        <item>Dewas, Madhya Pradesh</item>
+        <item>Dhanbad, Jharkhand</item>
+        <item>Dharmavaram, Andhra Pradesh</item>
+        <item>Dhule, Maharashtra</item>
+        <item>Dibrugarh, Assam</item>
+        <item>Dindigul, Tamil Nadu</item>
+        <item>Durg, Chhattisgarh</item>
+        <item>Durgapur, West Bengal</item>
+        <item>Eluru, Andhra Pradesh</item>
+        <item>Erode, Tamil Nadu</item>
+        <item>Etawah, Uttar Pradesh</item>
+        <item>Faridabad, Haryana</item>
+        <item>Farrukhabad, Uttar Pradesh</item>
+        <item>Fatehpur, Uttar Pradesh</item>
+        <item>Firozabad, Uttar Pradesh</item>
+        <item>Gandhidham, Gujarat</item>
+        <item>Gandhinagar, Gujarat</item>
+        <item>Gangtok, Sikkim</item>
+        <item>Gaya, Bihar</item>
+        <item>Ghaziabad, Uttar Pradesh</item>
+        <item>Gopalpur, West Bengal</item>
+        <item>Gorakhpur, Uttar Pradesh</item>
+        <item>Gudivada, Andhra Pradesh</item>
+        <item>Gulbarga, Karnataka</item>
+        <item>Guna, Madhya Pradesh</item>
+        <item>Guntakal, Andhra Pradesh</item>
+        <item>Guntur, Andhra Pradesh</item>
+        <item>Gurgaon, Haryana</item>
+        <item>Guwahati, Assam</item>
+        <item>Gwalior, Madhya Pradesh</item>
+        <item>Hajipur, Bihar</item>
+        <item>Haldia, West Bengal</item>
+        <item>Hapur, Uttar Pradesh</item>
+        <item>Haridwar, Uttarakhand</item>
+        <item>Hindupur, Andhra Pradesh</item>
+        <item>Hospet, Karnataka</item>
+        <item>Howrah, West Bengal</item>
+        <item>Hubli–Dharwad, Karnataka</item>
+        <item>Hyderabad, Telangana</item>
+        <item>Ichalkaranji, Maharashtra</item>
+        <item>Imphal, Manipur</item>
+        <item>Indore, Madhya Pradesh</item>
+        <item>Jabalpur, Madhya Pradesh</item>
+        <item>Jaipur, Rajasthan</item>
+        <item>Jalandhar, Punjab</item>
+        <item>Jalgaon, Maharashtra</item>
+        <item>Jalna, Maharashtra</item>
+        <item>Jamalpur, Bihar</item>
+        <item>Jammu, Jammu and Kashmir</item>
+        <item>Jamnagar, Gujarat</item>
+        <item>Jamshedpur, Jharkhand</item>
+        <item>Jaunpur, Uttar Pradesh</item>
+        <item>Jehanabad, Bihar</item>
+        <item>Jhansi, Uttar Pradesh</item>
+        <item>Jodhpur, Rajasthan</item>
+        <item>Jorhat, Assam</item>
+        <item>Junagadh, Gujarat</item>
+        <item>Kadapa, Andhra Pradesh</item>
+        <item>Kakinada, Andhra Pradesh</item>
+        <item>Kalyan-Dombivli, Maharashtra</item>
+        <item>Kamarhati, West Bengal</item>
+        <item>Kanpur, Uttar Pradesh</item>
+        <item>Karaikudi, Tamil Nadu</item>
+        <item>Karawal Nagar, Delhi</item>
+        <item>Karimnagar, Telangana</item>
+        <item>Karnal, Haryana</item>
+        <item>Katihar, Bihar</item>
+        <item>Katni, Madhya Pradesh</item>
+        <item>Kavali, Andhra Pradesh</item>
+        <item>Khammam, Telangana</item>
+        <item>Khandwa, Madhya Pradesh</item>
+        <item>Kharagpur, West Bengal</item>
+        <item>Khora,  Ghaziabad, Uttar Pradesh</item>
+        <item>Kirari Suleman Nagar, Delhi</item>
+        <item>Kishanganj, Bihar</item>
+        <item>Kochi, Kerala</item>
+        <item>Kolhapur, Maharashtra</item>
+        <item>Kolkata, West Bengal</item>
+        <item>Kollam, Kerala</item>
+        <item>Korba, Chhattisgarh</item>
+        <item>Kota, Rajasthan</item>
+        <item>Kottayam, Kerala</item>
+        <item>Kozhikode, Kerala</item>
+        <item>Kulti, West Bengal</item>
+        <item>Kumbakonam, Tamil Nadu</item>
+        <item>Kurnool, Andhra Pradesh</item>
+        <item>Latur, Maharashtra</item>
+        <item>Loni, Uttar Pradesh</item>
+        <item>Lucknow, Uttar Pradesh</item>
+        <item>Ludhiana, Punjab</item>
+        <item>Machilipatnam, Andhra Pradesh</item>
+        <item>Madanapalle, Andhra Pradesh</item>
+        <item>Madhyamgram, West Bengal</item>
+        <item>Madurai, Tamil Nadu</item>
+        <item>Mahbubnagar, Telangana</item>
+        <item>Maheshtala, West Bengal</item>
+        <item>Malda, West Bengal</item>
+        <item>Malegaon, Maharashtra</item>
+        <item>Mangalore, Karnataka</item>
+        <item>Mango, Jharkhand</item>
+        <item>Mathura, Uttar Pradesh</item>
+        <item>Mau, Uttar Pradesh</item>
+        <item>Meerut, Uttar Pradesh</item>
+        <item>Mehsana, Gujarat</item>
+        <item>Mira-Bhayandar, Maharashtra</item>
+        <item>Miryalaguda, Telangana</item>
+        <item>Mirzapur, Uttar Pradesh</item>
+        <item>Moradabad, Uttar Pradesh</item>
+        <item>Morbi, Gujarat</item>
+        <item>Morena, Madhya Pradesh</item>
+        <item>Motihari, Bihar</item>
+        <item>Mumbai, Maharashtra</item>
+        <item>Munger, Bihar</item>
+        <item>Muzaffarnagar, Uttar Pradesh</item>
+        <item>Muzaffarpur, Bihar</item>
+        <item>Mysore, Karnataka</item>
+        <item>Nadiad, Gujarat</item>
+        <item>Nagaon, Assam</item>
+        <item>Nagercoil, Tamil Nadu</item>
+        <item>Nagpur, Maharashtra</item>
+        <item>Naihati, West Bengal</item>
+        <item>Nanded, Maharashtra</item>
+        <item>Nandyal, Andhra Pradesh</item>
+        <item>Nangloi Jat, Delhi</item>
+        <item>Narasaraopet, Andhra Pradesh</item>
+        <item>Nashik, Maharashtra</item>
+        <item>Navi Mumbai, Maharashtra</item>
+        <item>Nellore, Andhra Pradesh</item>
+        <item>New Delhi, Delhi</item>
+        <item>Nizamabad, Telangana</item>
+        <item>Noida, Uttar Pradesh</item>
+        <item>North Dumdum, West Bengal</item>
+        <item>Ongole, Andhra Pradesh</item>
+        <item>Orai, Uttar Pradesh</item>
+        <item>Ozhukarai, Puducherry</item>
+        <item>Pali, Rajasthan</item>
+        <item>Pallavaram, Tamil Nadu</item>
+        <item>Panchkula, Haryana</item>
+        <item>Panihati, West Bengal</item>
+        <item>Panipat, Haryana</item>
+        <item>Panvel, Maharashtra</item>
+        <item>Parbhani, Maharashtra</item>
+        <item>Patiala, Punjab</item>
+        <item>Patna, Bihar</item>
+        <item>Phagwara, Punjab</item>
+        <item>Pimpri-Chinchwad, Maharashtra</item>
+        <item>Pondicherry, Puducherry</item>
+        <item>Proddatur, Andhra Pradesh</item>
+        <item>Pune, Maharashtra</item>
+        <item>Purnia, Bihar</item>
+        <item>Raebareli, Uttar Pradesh</item>
+        <item>Raichur, Karnataka</item>
+        <item>Raiganj, West Bengal</item>
+        <item>Raipur, Chhattisgarh</item>
+        <item>Rajahmundry, Andhra Pradesh</item>
+        <item>Rajkot, Gujarat</item>
+        <item>Rajpur Sonarpur, West Bengal</item>
+        <item>Ramagundam, Telangana</item>
+        <item>Rampur, Uttar Pradesh</item>
+        <item>Ranchi, Jharkhand</item>
+        <item>Ratlam, Madhya Pradesh</item>
+        <item>Raurkela Industrial Township, Odisha</item>
+        <item>Rewa, Madhya Pradesh</item>
+        <item>Rohtak, Haryana</item>
+        <item>Rourkela, Odisha</item>
+        <item>Sagar, Madhya Pradesh</item>
+        <item>Saharanpur, Uttar Pradesh</item>
+        <item>Saharsa, Bihar</item>
+        <item>Salem, Tamil Nadu</item>
+        <item>Sambalpur, Odisha</item>
+        <item>Sambhal, Uttar Pradesh</item>
+        <item>Sangli-Miraj Kupwad, Maharashtra</item>
+        <item>Sasaram, Bihar</item>
+        <item>Satara, Maharashtra</item>
+        <item>Satna, Madhya Pradesh</item>
+        <item>Secunderabad, Telangana</item>
+        <item>Serampore, West Bengal</item>
+        <item>Shahjahanpur, Uttar Pradesh</item>
+        <item>Shimla, Himachal Pradesh</item>
+        <item>Shimoga, Karnataka</item>
+        <item>Shivpuri, Madhya Pradesh</item>
+        <item>Sikar, Rajasthan</item>
+        <item>Silchar, Assam</item>
+        <item>Siliguri, West Bengal</item>
+        <item>Singrauli, Madhya Pradesh</item>
+        <item>Sirsa, Haryana</item>
+        <item>Siwan, Bihar</item>
+        <item>Solapur, Maharashtra</item>
+        <item>Sonipat, Haryana</item>
+        <item>South Dumdum, West Bengal</item>
+        <item>Sri Ganganagar, Rajasthan</item>
+        <item>Srikakulam, Andhra Pradesh</item>
+        <item>Srinagar, Jammu and Kashmir</item>
+        <item>Sultan Pur Majra, Delhi</item>
+        <item>Surat, Gujarat</item>
+        <item>Surendranagar Dudhrej, Gujarat</item>
+        <item>Suryapet, Telangana</item>
+        <item>Tadepalligudem, Andhra Pradesh</item>
+        <item>Tadipatri, Andhra Pradesh</item>
+        <item>Tenali, Andhra Pradesh</item>
+        <item>Tezpur, Assam</item>
+        <item>Thane, Maharashtra</item>
+        <item>Thanjavur, Tamil Nadu</item>
+        <item>Thiruvananthapuram, Kerala</item>
+        <item>Thoothukudi, Tamil Nadu</item>
+        <item>Thrissur, Kerala</item>
+        <item>Tinsukia, Assam</item>
+        <item>Tiruchirappalli, Tamil Nadu</item>
+        <item>Tirunelveli, Tamil Nadu</item>
+        <item>Tirupati, Andhra Pradesh</item>
+        <item>Tiruppur, Tamil Nadu</item>
+        <item>Tiruvottiyur, Tamil Nadu</item>
+        <item>Tumkur, Karnataka</item>
+        <item>Udaipur, Rajasthan</item>
+        <item>Udupi, Karnataka</item>
+        <item>Ujjain, Madhya Pradesh</item>
+        <item>Ulhasnagar, Maharashtra</item>
+        <item>Uluberia, West Bengal</item>
+        <item>Unnao, Uttar Pradesh</item>
+        <item>Vadodara, Gujarat</item>
+        <item>Varanasi, Uttar Pradesh</item>
+        <item>Vasai-Virar, Maharashtra</item>
+        <item>Vellore, Tamil Nadu</item>
+        <item>Vijayanagaram, Andhra Pradesh</item>
+        <item>Vijayawada, Andhra Pradesh</item>
+        <item>Visakhapatnam, Andhra Pradesh</item>
+        <item>Warangal, Telangana</item>
+        <item>Yamunanagar, Haryana</item>
+    </string-array>
+
+</resources>

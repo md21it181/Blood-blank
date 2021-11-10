@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donor_form.DonorFormActivity">
+
+    <RelativeLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be a donor"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_centerInParent="true"/>
+
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/name"
+        android:layout_below="@+id/heading"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:hint="Full name"
+        />
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/dob"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/name"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Date of birth"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/gender"
+        android:layout_below="@+id/dob"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/ceta"
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:paddingLeft="25dp"
+
+            android:popupBackground="@drawable/rounded_bg"
+            android:entries="@array/gender"
+
+
+            android:background="@drawable/rounded_bg"
+
+            android:spinnerMode="dropdown"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down_arrow"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/bw"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/gender"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Body weight (in Kg)"
+        />
+
+    <EditText
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/cn"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/bw"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Contact number"
+        />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/cn"
+        android:id="@+id/bg"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:paddingLeft="25dp"
+
+            android:popupBackground="@drawable/rounded_bg"
+            android:entries="@array/bg2"
+
+
+            android:background="@drawable/rounded_bg"
+
+            android:spinnerMode="dropdown"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down_arrow"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+
+        android:layout_below="@+id/bg"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+
+
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/vd"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:layout_weight="1"
+
+            android:textColor="#ffffff">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+
+                android:text="Submit"
+                android:id="@+id/submit"
+
+                android:textColor="@android:color/white"
+                android:background="@drawable/red_rounded_bg"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_weight="1"
+
+            >
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
